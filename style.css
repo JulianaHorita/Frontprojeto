@@ -1,3 +1,59 @@
-body{
-background-image: url(./assets/bg-mobile.jpg);
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#container {
+  width: 360px;
+  margin-top: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  display: block;
+  width: 112px;
+  margin: 0 auto;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+/* links */
+ul {
+  list-style: none;
+
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+ul li a  {
+display: flex;
+align-items: center;
+justify-content: center;
+
+padding: 16px 24px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+
+backdrop-filter: blur(4px);
+}
+
+  
